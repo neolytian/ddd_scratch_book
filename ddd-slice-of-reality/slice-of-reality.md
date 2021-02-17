@@ -11,19 +11,33 @@ The concept of Domain Driven Design revolves around the idea that the language o
 
 ## Event Storming & Blink Modeling
 
+![Event Storming Legend](.drawings/eventStormingLegend.png) //TODO: Fix Picture
+
 [Event Storming](https://en.wikipedia.org/wiki/Event_storming) is workshop-based modelling method. The grammar of the Event Storming follows this order:
 
-![Event Storming Legend](.drawings/eventStormingLegend.png)
+**TODO: Add Example for Event Storming**
 
 - Event: An event capture a fact that happened. It is always written in past tense (e.g. Pasta cooked)
 - Policy / Business Process: A policy is a business decision / rule.
 - Command: A command expresses an intent. This intent is always written in present tense (e.g. cook pasta)
 - Persona / Actor: The actor is the person who is executing the (parts of or the complete) business process
 - Aggregate: An aggregate encloses the data (entities and value objects) and behavior of a logical unit within a process.
+
+
+In the session with [Mathias Verraes](https://verraes.net/), he tends to use an additional symbol:
+
+TODO: Add Screenshot of the Process Determination
+
 - Process Determination: The Process Determination indicates if a process start or ends.
 
 
-Blink Modelling is special form of Event Storming.
+[Blink Modelling](https://miro.com/app/board/o9J_lWERCMg=/) is special form of Event Storming.
+The rules are the following:
+
+1. Every (decision path) has to be finished.
+2. The Color Grammar has to be followed.
+3. Every Stakeholder has to be reasonably happy.
+4. Every hotspot must be addressed.
 
 
 ## What is a Persona?
