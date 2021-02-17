@@ -58,7 +58,7 @@ Drawing of a process with several personas
 
 **First** you define your set of persona who are involved in the overall business domain. Do this with your group of domain experts at hand. You capture them in a [persona canvas](https://drawio-app.com/create-a-value-proposition-canvas-with-draw-io/).
 
-**Second**, you perform an event modelling per persona. Invite at least one domain expert representing the persona. 
+**Second**, you perform an event modelling per persona. Invite at least one domain expert representing the persona.
 
 **Third**, after you have performed the event modelling, you analyse the event storming for connection to the other process steps (events or command) in the other Event Storming Sessions. You need to identify process steps which influence the process of other personas (event, command, policies). These process steps are then the lead-out and lead-in to the other persona's reality.
 
